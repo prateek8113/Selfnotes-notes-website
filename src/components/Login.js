@@ -32,8 +32,13 @@ const onchange = (e) => {
   };
 
   return (
+    <>
+    <div className='d-flex justify-content-center'>
+      <h1>Login</h1>
+    </div>
     <div>
       <form onSubmit={Submit}>
+        
   <div className="mb-3" >
     <label for="exampleInputEmail1" className="form-label">Email address</label>
     <input type="email" className="form-control" id="email" name='email' value={cred.email} onChange={onchange} aria-describedby="emailHelp"/>
@@ -47,6 +52,7 @@ const onchange = (e) => {
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
     </div>
+    </>
   )
 }
 

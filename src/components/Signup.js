@@ -37,6 +37,10 @@ const Signup = () => {
   }
 
   return (
+    <>
+    <div className='d-flex justify-content-center'>
+      <h1>Create An Account</h1>
+    </div>
     <div className='container d-flex flex-column'>
       <form onSubmit={Submit}>
         <div className='d-flex flex-row my-2'>
@@ -70,6 +74,7 @@ const Signup = () => {
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
     </div>
+    </>
   )
 }
 
