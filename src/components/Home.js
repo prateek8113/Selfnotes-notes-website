@@ -14,6 +14,10 @@ const Home = () => {
     setNotes({...note, [e.target.name]: e.target.value})
   }
    return(
+    <>
+    <div>
+      <h1>Add Your Notes</h1>
+    </div>
    <div>
     <form>
   <div class="mb-3">
@@ -34,6 +38,7 @@ const Home = () => {
   <button type="submit" class="btn btn-primary" onClick={handleClick}>save</button>
 </form>
 </div>
+</>
     
     
     
