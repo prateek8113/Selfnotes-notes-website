@@ -8,7 +8,8 @@ const Signup = () => {
 
   const Submit = async (e) => {
     e.preventDefault()
-    const url = `http://localhost:3000/api/auth/create`
+    const url = `/api/auth/create`;
+
     const headers = {
       "Content-Type": "application/json",
     }
